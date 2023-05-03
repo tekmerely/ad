@@ -108,11 +108,11 @@ img {
   color: var(--clr-white);
   border-radius: 4px;
 }
-.navbar .container ul li a:hover {
-  background-color: var(--clr-second-light);
-  color: var(--clr-white);
-  border-radius: 4px;
-  transition: var(--transition);
+.navbar .container ul li a:active {
+  background-color: var(--clr-second-light) !important;
+  color: var(--clr-white) !important;
+  border-radius: 4px !important;
+  transition: var(--transition) !important;
 }
 .logo{
   font-family: 'Bebas Neue', cursive;
@@ -313,6 +313,9 @@ color: var(--clr-white);
 .text-footer li:nth-child(2){
   margin-bottom: 3rem;
   border: none !important;
+}
+#footer ul{
+  padding: 0;
 }
 
 
