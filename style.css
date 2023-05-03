@@ -84,7 +84,6 @@ img {
 .navbar .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 1rem;
   align-items: center;
 }
 .navbar .container a{
@@ -124,7 +123,10 @@ img {
   font-weight: normal;
 }
 .logo-image{
-  height: 35px;
+  max-width: 4rem;
+}
+.navbar-toggler{
+  width: 4rem;
 }
 
 /* ================== showcase ================== */
@@ -213,6 +215,12 @@ img {
 
 #home-articles .articles-container article:last-child {
   grid-column: 2 / span 2;
+}
+.card{
+  border-color: var(--clr-primary-light) !important;
+}
+.card-4,.card-2{
+  border-color: var(--clr-primary) !important;
 }
 .card h3 {
   padding: 1rem;
