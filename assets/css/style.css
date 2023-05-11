@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
   font-family: "vazir";
-  src: url(./fonts/Vazirmatn-Medium.woff2) format(woff2);
+  src: url(../fonts/Vazirmatn-Medium.woff2) format(woff2);
 }
 :root {
   --clr-dark: #000000;
@@ -133,7 +133,7 @@ img {
 
 #showcase {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-    url(./img/mailchimp-lAx4E6Gl06s-unsplash.jpg) no-repeat center center/cover;
+    url(../img/mailchimp-lAx4E6Gl06s-unsplash.jpg) no-repeat center center/cover;
   /* padding: 2rem; */
   height: 75vh;
   margin: 2rem 0rem;
